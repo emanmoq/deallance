@@ -48,15 +48,19 @@ body{
     width:110px;
     height:36px;
     border-radius: 5px;
-    cursor: pointer
+    cursor: pointer;
+    transition: all .5s;;
+
 }
 .loginBtn:hover{
-    background-color: transparent;
-  
+    background-image: none;
+    border:1px solid #DDDDDD;
+    transition: all .5s;;
 }
 
 .login{
     margin-left:15px;
+    float: left;
 }
 .login ,.creatAccount{
     display: inline-block;
@@ -384,6 +388,15 @@ padding: 0 15px;
     border:1px solid #DDDDDD;
     padding:23px 44px;
     margin-bottom: 10px;
+    transition: all .5s;
+
+}
+.questionsBox:hover{
+    background-image: linear-gradient(45deg,#23BCBA,#45E994);
+    transition: all .5s;
+}
+.questionsBox:hover a{
+    color:white;
 }
 .questionsBox a{
     font-size:24px;
@@ -549,4 +562,46 @@ font-size: 16px;;
     }
     .loginFooter a:first-child{
         border-left:1px solid #707070;
+    }
+    .navbar-toggler{
+        cursor: pointer;
+        width: 35px;
+        margin: auto;
+        border: 1px solid white;
+        padding: 5px;;
+    }
+    .navbar-toggler i{
+        background-color:white;;
+        border-radius: 2px;
+        content: '';
+        display: block;
+        width: 98%;
+        height: 3px;
+        margin-bottom: 5px;
+        opacity: .7;
+    
+    }
+    .navbar-toggler i:last-child{
+        margin-bottom: 0;
+    }
+    @media(min-width:300px) and (max-width:767px){
+        .topHeader{
+            padding-top:18px;
+        }
+        .login{
+            float: none;
+            margin-top:20px;
+        }
+        .heroContent h1{
+font-size: 25px;
+margin-bottom: 0;;
+        }
+        .heroContent h5{
+            font-size: 25px;
+        }
+    .yellow{
+        margin-bottom: 10px;
+    }
+    .hero {
+        padding: 10px 0 150px;}
     }
