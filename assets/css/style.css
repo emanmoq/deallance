@@ -584,9 +584,12 @@ font-size: 16px;;
     .navbar-toggler i:last-child{
         margin-bottom: 0;
     }
-    @media(min-width:300px) and (max-width:767px){
+    @media(min-width:300px) and (max-width:850px){
         .topHeader{
             padding-top:18px;
+        }
+        .howBox{
+            height: auto;
         }
         .login{
             float: none;
@@ -603,5 +606,48 @@ margin-bottom: 0;;
         margin-bottom: 10px;
     }
     .hero {
-        padding: 10px 0 150px;}
+        padding: 30px 0 200px}
+        .sectionTitle h2 {
+            font-size: 22px;}
+         .sectionTitle {
+                margin-bottom: 50px !important;
+            }
+    .howBox {
+        margin-bottom: 50px;;
     }
+    section{
+        padding:30px 0 !important
+    }
+   .sectionTitle h2:before {
+     width:150px !important;
+        left: 7% !important;}
+  
+    .projTmg {
+        width: 50px;
+        height: 50px;}
+
+    .projDetails p {
+        font-size: 12px;}
+    .budget ,.showProj {
+        float: none !important;
+        text-align: right !important;
+        margin-top:20px
+    }
+    .questionsBox a {
+        font-size: 16px;
+    }
+
+    .loginBox{
+        right:6px;
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+    .howBox{
+        padding:0;
+        height: auto;
+    }
+    .budget, .showProj{
+        float: left !important;
+        text-align: left !important;
+    }
+}
