@@ -678,6 +678,7 @@ color:white;
     .personalInfoBox{
         background-color: white;
         padding:70px 0;
+        height:312px;
     }
     .personalDetails{
         margin:auto;
@@ -714,7 +715,8 @@ margin-left:0;
     }
     .statisticsBox{
     background-color: white;
-    padding:15px 0;
+ 
+    height:312px;
     }
     .statisticsBox h5{
         font-size: 17px;
@@ -724,9 +726,13 @@ margin-left:0;
     }
     .statisticList{
         padding:24px 29px;
+
     }
     .statisticList li {
         margin-bottom: 25px;;
+    }
+    .statisticList li:last-child{
+        margin-bottom: 0;;
     }
     .statisticList li div{
         font-size:15px;
@@ -735,9 +741,9 @@ margin-left:0;
         opacity: .6;
         text-align: center;
     }
-    .far.fa-star{
+    .fa-star{
 font-size: 13px;
-color:gold;
+color:#FFC107;
     }
     @media(min-width:300px) and (max-width:850px){
         .topHeader{
