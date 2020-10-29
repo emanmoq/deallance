@@ -83,6 +83,7 @@ body{
     padding-left: 25px;
     font-family:"NotoKufiArabic-Bold";
 }
+
 .hero{
     padding:104px 0;
     padding-bottom:180px;
@@ -583,6 +584,160 @@ font-size: 16px;;
     }
     .navbar-toggler i:last-child{
         margin-bottom: 0;
+    }
+    .navbar-expand-lg.innerNave .navbar-nav .nav-link{
+    font-size: 14px;
+    color:#A5A5A5;
+    padding-left:20px;
+    padding-right:20px;
+    }
+    .innerNave.navbar{
+        background-color: transparent;
+    }
+    .inbox,.notification ,.profile{
+        display: inline-block;
+        float: right;
+        padding:.5rem 0;
+        margin-left:25px;
+    }
+    .profile{
+        margin-left: 0;
+        padding:0;
+    }
+    .inbox i,.notification i{
+      color:#A5A5A5;
+      font-size: 18px;
+    }
+    .profileImg{
+        width:36px;
+        height:36px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: inline-block;
+        float: right;
+    }
+    .profName{
+        display: inline-block;
+        float: right;
+        margin-right: 10px;;
+    }
+    .profName p{
+        font-size:16px;
+        color:#323232;
+        margin-bottom: 0;;
+    }
+    .profName span{
+        font-size:14px;
+        color:#676767;
+    }
+    .leftSide{
+        padding: .5rem 0;
+    }
+    .InnerImg{
+        background-image:linear-gradient(45deg,rgba(23, 234, 217, .65),rgba(53, 71, 163, 0.65))
+    }
+    .innerhero{
+        padding:60px 0;
+    }
+    .innerTitle{
+        border-right: 3px solid white;
+        padding-right:20px;
+    }
+    .innerTitle h3{
+        font-size:22px;
+        color:white;
+    }
+    .innerTitle a, .innerTitle span{
+font-size: 16px;
+color:white;
+    }
+    .innerSearch{
+        background-color: rgba(255,255,255,.3);
+        border-radius: 3px;
+        padding:15px;;
+    }
+    .innerSearch .form-group{
+        display: inline-block;
+        float: right;
+        width:270px;
+        margin-bottom: 0;
+    }
+    .searchBtn{
+        width:160px;
+        height:50px;
+        float: right;
+        display: inline-block;
+    }
+    .innerSearch form{
+      
+        margin:0;
+    }
+    .innerBody{
+        background-color: #F7F7F7;
+    }
+    .personalInfoBox{
+        background-color: white;
+        padding:70px 0;
+    }
+    .personalDetails{
+        margin:auto;
+        width:50%;
+        text-align: center;
+    }
+    .personalInfoImg{
+        width:74px;
+        height:74px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin: auto;
+        margin-bottom: 15px;;
+
+    }
+    .personalDetails h3{
+font-size:24px;
+color:#202020;
+margin-bottom: 15px;;
+    }
+    .personalInfo{
+        padding:25px 0;
+    }
+    .personalDetails span{
+        font-size: 11px;
+        color:#737373;
+        margin-left:25px;
+    }
+    .personalDetails span:last-child{
+margin-left:0;
+    }
+    .personalDetails span i{
+        margin-left:10px;
+    }
+    .statisticsBox{
+    background-color: white;
+    padding:15px 0;
+    }
+    .statisticsBox h5{
+        font-size: 17px;
+        padding:15px 29px;
+        padding-bottom:18px;
+        border-bottom: 1px solid #DDDDDD;;
+    }
+    .statisticList{
+        padding:24px 29px;
+    }
+    .statisticList li {
+        margin-bottom: 25px;;
+    }
+    .statisticList li div{
+        font-size:15px;
+        color:#202020;
+        display: inline-block;
+        opacity: .6;
+        text-align: center;
+    }
+    .far.fa-star{
+font-size: 13px;
+color:gold;
     }
     @media(min-width:300px) and (max-width:850px){
         .topHeader{
