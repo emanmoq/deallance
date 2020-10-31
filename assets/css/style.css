@@ -745,6 +745,242 @@ margin-left:0;
 font-size: 13px;
 color:#FFC107;
     }
+    .tabsContainer{
+        width:100%;
+        background-color: #FCFCFC;
+        padding: 0 48px;
+        margin-bottom:27px;
+    }
+    .editProfileBtn{
+        width:205px;
+        height: 50px;;
+        line-height: 38px;
+        margin-top:25px;
+    }
+    .nav-pills .nav-link{
+        font-size: 18px;
+        color:#202020;
+        opacity: .3;
+        border-radius: 0;
+        padding:30px 0;
+    }
+    .nav-pills .nav-item{
+        padding:0 36px;
+    }
+    .nav-pills .nav-item:first-child{
+        padding-right: 0;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+        color:#202020;
+        border-bottom:3px solid #23BCBA;;
+        opacity: 1;
+        background-color: transparent;
+    }
+    #pills-tabContent{
+       
+        margin-bottom: 130px;;
+    }
+    .pillsContainer{
+        background-color: white;
+    }
+    .pillsContainer h5{
+        padding:23px 35px;
+        border-bottom: 1px solid #DDDDDD;
+        font-size:18px;
+    }
+    .pillsContent{
+        padding:23px 35px;
+        padding-left:70px;
+    }
+    .pillsContent p{
+        font-size:13px;
+        color:#202020;
+        opacity: .6;
+    }
+    .pillsContent span{
+        background-image:linear-gradient(10deg,#23BCBA,#45E994) ;
+        width:93px;
+        height:31px;
+        text-align: center;
+        font-size: 12px;
+        border-radius: 39px;
+        margin-left: 9px;
+        padding:6px 33px;
+        color:white;
+    }
+    .pillsContent .evaluteRate{
+        font-size:28px;
+        color:#202020;
+        opacity: .6;
+        display: inline-block;
+        margin:0;
+        margin-right:17px;
+    }
+  .statisticList li div.rate{
+        opacity:1;
+    }
+    .pillsContent .statisticList li{
+        margin-bottom: 33px;;
+    }
+   .pillsContent .statisticList li div{
+        opacity: .7;
+    }
+    .pillsContent .statisticList li  i{
+        font-size: 28px;
+    }
+    .pillsContent .statisticList li div.rate{
+        opacity: 1;
+    }
+    .pillsContent .statisticList{
+        padding: 0;
+    }
+    .seccondRateBox{
+margin-top:27px;
+    }
+    .ratedProjectTitle{
+        margin-bottom:46px;
+    }
+    .ratedProjectTitle h6{
+        font-size: 17px;
+        color:#202020;
+        margin-bottom: 14px;;
+    }
+    .pillsContent  .ratedProjectTitle h6 span{
+        background-image: none;
+        font-size: 7px;
+        background-color: #23BCBA;
+        border-radius: 3px;
+        padding:7px;
+        margin-right:12px;
+    }
+    .ratedProjectDetails p{
+        font-size:11px;
+        color:#202020;
+        opacity: .5;
+        display: inline-block;
+        margin:0;
+        margin-left:28px
+    }
+    .ratedProjectDetails p i{
+        margin-left:5px;
+    }
+    .projectRateManager{
+        margin-bottom: 15px;;
+    }
+    .projectrateManagerImg{
+        width: 49px;
+        height:49px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-left:6px;
+        float: right;
+        display: inline-block;
+    }
+    .projectRateManagerDesc{
+        display: inline-block;
+        float: right;
+        
+    }
+    .projectRateManagerDesc h6{
+font-size: 15px;
+color:#23BCBA;
+margin-bottom: 3px;;
+    }
+    .managerRate{
+        line-height: 0;
+    }
+    .managerRate i{
+color:#DBDBDB;
+font-size: 10px;
+    }
+    .rateTxt{
+        font-size:14px;
+        color:#3D3D3D
+    }
+     .numberOfoffers {
+        padding-top:150px;
+    }
+    .numberOfoffers p{
+font-size:20px;
+color:#202020;
+opacity: .7;
+    }
+   .numberOfoffers h6 {
+        font-size:72px;
+        color:#202020;
+    }
+    .offersDetails .progress{
+height: 10px;
+background-color: #F0F0F0;
+display: inline-block;
+width:85%;
+border-radius: 50px;
+    }
+    .waitingOffer  .progress-bar {
+        background-color: #FFE282; 
+
+    }
+   .progress-bar {
+        height:100%;
+        border-radius: 50px;
+        
+    }
+    .offersDetails p{
+        margin-left:32px;
+        display: inline-block;
+        font-size: 50px;
+        color:#202020;
+        opacity: 1;
+        width:6%;
+    }
+    .offerSection{
+        margin-bottom:30px;
+    }
+    .Underway .progress-bar {
+        background-color: #23BCBA;;
+    }
+    .doneOffer .progress-bar{
+        background-color: #31DE2B;;
+    }
+    .ExcludedOffer .progress-bar{
+        background-color: #F57171;
+    }
+    .offersTail{
+        border-top:1px solid #DDDDDD;
+        padding:33px 0;
+    }
+    .offerTailContent h6{
+       font-size:22px;
+       color:#202020; 
+       display: inline-block;
+    }
+     .offerTailContent h6 p{
+         display: inline-block;
+         margin:0;
+         font-size: 22px;
+         font-family:"NotoKufiArabic-Bold";
+         font-weight: bold;
+    }
+    .avilableOffersHeader{
+        padding:14px 34px;;
+        border-bottom: 1px solid #DDDDDD;
+        font-size:18px;
+    }
+     .avilableOffersHeader .selectric-wrapper{
+         width:99px;
+     }
+     .avilableOffersHeader  h6{
+         padding-top:15px;
+         font-size: 18px;;
+     }
+     .avilableOffersSection h6{
+         font-size:17px;
+         color:#202020;
+         margin-bottom:15px;
+     }
+     .avilableOffersSection{
+         margin-bottom:27px;
+     }
     @media(min-width:300px) and (max-width:850px){
         .topHeader{
             padding-top:18px;
