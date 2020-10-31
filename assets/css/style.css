@@ -981,6 +981,10 @@ border-radius: 50px;
      .avilableOffersSection{
          margin-bottom:27px;
      }
+     .navbar-expand-lg .navbar-nav{
+         margin: auto;
+     }
+
     @media(min-width:300px) and (max-width:850px){
         .topHeader{
             padding-top:18px;
@@ -1070,4 +1074,45 @@ float: none !important;
         float: left !important;
         text-align: left !important;
     }
+    .statisticsBox {
+        margin-top: 0;
+    }
+  
+    .statisticList li{
+margin-bottom: 10px;;
+    }
+    .statisticList {
+        padding: 5px 5px;
+    }
+    .personalDetails span{
+        margin-left:5px;
+    }
+    .personalDetails span i {
+        margin-left: 0px;
+    }
+    .pillsContent .ratedProjectTitle h6 span{
+        display: inline-block;
+        float: none;
+    }
+    .navbar.navbar-expand-lg.innerNave .collapse.navbar-collapse {
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    
+    }
+    .navbar.navbar-expand-lg.innerNave .navbar-nav{
+        flex-direction: row;
+    }
+
+}
+@media (min-width:1024px) and (max-width:1150px){
+    .logo {
+        width: 153px;
+        height: auto;
+
+        }
+        .logo img{
+            height: auto;
+        }
+
 }
