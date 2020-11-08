@@ -783,7 +783,7 @@ color:#FFC107;
     .pillsContainer{
         background-color: white;
     }
-    .pillsContainer h5{
+    .pillsContainer h5,.balanceHeader{
         padding:23px 35px;
         border-bottom: 1px solid #DDDDDD;
         font-size:18px;
@@ -984,7 +984,89 @@ border-radius: 50px;
      .navbar-expand-lg .navbar-nav{
          margin: auto;
      }
+     .balanceBody{
+padding:40px 0;
+     }
+     .balanceHeader h4{
+         display: inline-block;
+     }
+     .chargeBtn{
+         background-color: #A5A5A5;
+         color:white;
+         margin-right:9px;
+         font-size: 14px;
 
+     }
+     .balanceBtn{
+         display: inline-block;
+     }
+     .balanceContent p{
+         font-size: 18px;
+         color:#202020;
+         opacity: .7;
+     }
+     .balanceContent h6{
+         font-size: 43px;
+         color:#202020;
+     }
+     .balanceContent{
+         padding-top:43px;
+     }
+     .Financialtransactions{
+         padding:25px 30px;
+     }
+     .FinHeader{
+         padding-bottom:19px;
+         border-bottom:1px solid #DDDDDD;
+         margin-bottom:26px;
+     }
+     .form-group.from{
+         width:47%;
+         display: inline-block;
+     }
+     form .dash{
+         margin:0 12px;
+     }
+     .margintop{
+         margin-top:25px;
+     }
+     .balacneDetails{
+      
+         padding-bottom: 29px;
+     
+     }
+     
+     .transactionBy{
+         font-size: 16px;
+         color:#202020;
+         margin-bottom:12px;
+     }
+     .transactionDetails{
+         margin-right:30px;
+     }
+     .balacneSection .balacneDate{
+         color:#737373;
+         font-size: 12px;;
+     }
+     p.balacneNum{
+         font-size:20px;
+         color:#202020;
+     }
+     .balacneSection {
+        padding:30px 40px;
+        border-bottom:1px solid #DDDDDD;
+     }
+     .balacneSection:last-child{
+         border-bottom: 0;
+         padding-bottom: 0;
+     }
+     .Financialtransactions form .form-group:first-child{
+         margin-bottom: 27px;;
+     }
+
+     .transactionBy .projectName{
+         color:#23BCBA;
+     }
     @media(min-width:300px) and (max-width:850px){
         .topHeader{
             padding-top:18px;
