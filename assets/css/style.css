@@ -1146,6 +1146,24 @@ margin-bottom: 0;;
 margin-bottom:20px;
 float: none !important;
     }
+    .navbar-expand-lg.innerNave .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex!important;}
+        .innerNave.navbar .navbar-nav{
+            flex-direction: row;
+        }
+        .navbar-expand-lg.innerNave .navbar-nav .nav-link {
+            font-size: 12px;
+            color: #A5A5A5;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .navbar.navbar-expand-lg.innerNave{
+            padding:10px 0;
+        }
+        .navbar-expand-lg.innerNave .navbar-nav{
+            margin:0;
+        }
 }
 @media (min-width:768px) and (max-width:1023px){
     .howBox{
